@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.rahulm.pomodoro.model.Attempt</OriginalElement>
+  <nodes>
+    <node x="0.0" y="1177.0">com.rahulm.pomodoro.model.SqliteConnection</node>
+    <node x="0.0" y="824.0">javafx.fxml.Initializable</node>
+    <node x="283.0" y="824.0">com.rahulm.pomodoro.model.RegisterController</node>
+    <node x="799.0" y="462.0">javafx.application.Application.Parameters</node>
+    <node x="162.0" y="12.0">java.io.Serializable</node>
+    <node x="647.75" y="0.0">javafx.application.Application</node>
+    <node x="630.0" y="451.0">com.rahulm.pomodoro.Main</node>
+    <node x="29.0" y="103.0">java.lang.Enum</node>
+    <node x="639.0" y="824.0">com.rahulm.pomodoro.model.LoginModel</node>
+    <node x="60.0" y="554.0">com.rahulm.pomodoro.model.AttemptKind</node>
+    <node x="893.0" y="824.0">com.rahulm.pomodoro.model.JdbcDao</node>
+    <node x="0.0" y="927.0">com.rahulm.pomodoro.model.loginController</node>
+    <node x="0.0" y="0.0">java.lang.Comparable</node>
+    <node x="1068.0" y="0.0">com.rahulm.pomodoro.model.Attempt</node>
+    <node x="339.0" y="0.0">com.rahulm.pomodoro.controllers.Home</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="javafx.application.Application.Parameters" target="javafx.application.Application">
+      <point x="0.0" y="-69.5" />
+      <point x="911.0" y="426.0" />
+      <point x="887.75" y="426.0" />
+      <point x="80.0" y="200.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="60.25" y="-200.5" />
+      <point x="209.75" y="78.0" />
+      <point x="228.0" y="78.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="-60.25" y="-200.5" />
+      <point x="89.25" y="78.0" />
+      <point x="71.0" y="78.0" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.rahulm.pomodoro.model.loginController" target="javafx.fxml.Initializable">
+      <point x="0.0" y="-102.5" />
+      <point x="0.0" y="26.5" />
+    </edge>
+    <edge source="com.rahulm.pomodoro.Main" target="javafx.application.Application">
+      <point x="0.0" y="-80.5" />
+      <point x="704.5" y="426.0" />
+      <point x="727.75" y="426.0" />
+      <point x="-80.0" y="200.5" />
+    </edge>
+    <edge source="com.rahulm.pomodoro.model.AttemptKind" target="java.lang.Enum">
+      <point x="0.0" y="-112.5" />
+      <point x="0.0" y="200.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8479999999999999" x="542.5000000000001" y="310.1886792452831" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="349.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rahulm.pomodoro.model.RegisterController">
+   <children>
+      <GridPane alignment="center" hgap="10" style="-fx-background-color: #0A32EA;" vgap="10">
+          <padding>
+            <Insets bottom="40" left="40" right="40" top="40" />
+         </padding>
+          <columnConstraints>
+              <ColumnConstraints halignment="RIGHT" maxWidth="Infinity" minWidth="100" prefWidth="100">
+        </ColumnConstraints>
+              <ColumnConstraints hgrow="ALWAYS" maxWidth="Infinity" minWidth="200" prefWidth="200">
+        </ColumnConstraints>
+          </columnConstraints>
+
+          <!-- Add Header Label -->
+          <Label style="-fx-font-family: Impact,Charcoal,sans-serif;" text="Registration" GridPane.columnIndex="0" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="0" GridPane.rowSpan="1">
+              <font>
+                  <Font name="Arial" size="29.0" />
+              </font>
+              <GridPane.margin>
+                  <Insets bottom="20" left="0" right="0" top="20" />
+              </GridPane.margin>
+          </Label>
+
+
+
+
+          <Label text="Username :" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+
+          <TextField fx:id="fullNameField" alignment="CENTER" prefHeight="40" promptText="Username" style="-fx-background-radius: 100PX;" GridPane.columnSpan="2147483647" GridPane.rowIndex="1">
+            <font>
+               <Font size="20.0" />
+            </font></TextField>
+
+
+
+          <Label text="Password :" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <font>
+               <Font size="14.0" />
+            </font>
+         </Label>
+
+          <PasswordField fx:id="passwordField" alignment="CENTER" prefHeight="38.0" prefWidth="200.0" promptText="Password" style="-fx-background-radius: 100PX;" GridPane.columnSpan="2147483647" GridPane.rowIndex="2">
+            <font>
+               <Font size="20.0" />
+            </font></PasswordField>
+
+
+          <Label text="Confirm Password:" GridPane.columnIndex="0" GridPane.rowIndex="3">
+    </Label>
+
+          <PasswordField fx:id="confirmpasswordField" alignment="CENTER" prefHeight="40" promptText="Confirm Password" style="-fx-background-radius: 100PX;" GridPane.columnSpan="2147483647" GridPane.rowIndex="3">
+            <font>
+               <Font size="20.0" />
+            </font></PasswordField>
+
+
+
+          <Button fx:id="submitButton" defaultButton="true" onAction="#register" prefHeight="40" prefWidth="164.0" style="-fx-background-radius: 100PX; -fx-background-color: #EA280A; -fx-font-weight: bold;" text="Submit" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.rowSpan="1">
+              <GridPane.margin>
+                  <Insets bottom="20.0" top="20.0" />
+              </GridPane.margin>
+            <font>
+               <Font size="18.0" />
+            </font>
+          </Button>
+
+         <Button fx:id="exitbutton" defaultButton="true" layoutX="155.0" layoutY="295.0" onAction="#exitregistration" prefHeight="40" prefWidth="100" style="-fx-background-radius: 100PX; -fx-background-color: #9f9a99; -fx-font-weight: bold;" text="Exit" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="5">
+            <font>
+               <Font size="18.0" />
+            </font></Button>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+      </GridPane>
+   </children>
+</AnchorPane>
