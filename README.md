@@ -1,2 +1,3 @@
 # PomodoroTimer
-It's a pomodoro timer app which is made with JAVAFX and access DB for login.
+It's a pomodoro timer made with JAVAFX and (MSAccess DB for login.)
+I would have use SQlite but it was my college requrirement to use MS Access So now you know why not to take BCA
